@@ -4,11 +4,12 @@ The top-level auxiliary file: report.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: abbrv.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
-I found no \citation commands---while reading file report.aux
 Database file #1: bib.bib
+Warning--I didn't find a database entry for "Vranic:AJParadigms"
+Warning--I didn't find a database entry for "Alexander:Timeless"
 You've used 0 entries,
             2118 wiz_defined-function locations,
-            497 strings with 3704 characters,
+            501 strings with 3776 characters,
 and the built_in function-call counts, 18 in all, are:
 = -- 0
 > -- 0
@@ -47,4 +48,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There were 2 warnings)
