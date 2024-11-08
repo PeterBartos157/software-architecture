@@ -1,3 +1,99 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{DVC}
+Dvc documentation.
+\newblock 2024.
+
+\bibitem{ACMreproducibility}
+ACM.
+\newblock Artifact review and badging.
+\newblock August 24, 2020.
+
+\bibitem{bryan2018excuse}
+J.~Bryan.
+\newblock Excuse me, do you have a moment to talk about version control?
+\newblock {\em The American Statistician}, 72(1):20--27, 2018.
+
+\bibitem{dolt-reproducibility}
+Dolt.
+\newblock {\em Data and Model Quality Control}.
+\newblock Accessed on 2024-11-6.
+
+\bibitem{dvc-define-pipelines}
+DVC.
+\newblock {\em Defining Pipelines}.
+\newblock Accessed on 2024-10-12.
+
+\bibitem{dvc-hydra}
+DVC.
+\newblock {\em Hydra Composition}.
+\newblock Accessed on 2024-10-12.
+
+\bibitem{dvc-compare-experiments}
+DVC.
+\newblock {\em Reviewing and Comparing Experiments}.
+\newblock Accessed on 2024-10-12.
+
+\bibitem{dvc-run-pipelines}
+DVC.
+\newblock {\em Running pipelines}.
+\newblock Accessed on 2024-10-12.
+
+\bibitem{gitlfs-structure}
+GitHub.
+\newblock {\em About Git Large File Storage}.
+\newblock Accessed on 2024-11-05.
+
+\bibitem{gitlfs-collaboration}
+GitHub.
+\newblock {\em Collaboration with Git Large File Storage}.
+\newblock Accessed on 2024-11-05.
+
+\bibitem{git-lfs}
+GitHub.
+\newblock When to use git lfs.
+\newblock Accessed on 2024-10-13.
+
+\bibitem{komsiyski2013binary}
+V.~Komsiyski.
+\newblock Binary differencing for media files.
+\newblock 2013.
+
+\bibitem{comparison}
+E.~Orr.
+\newblock Data versioning as your 'get out of jail' card - dvc vs. git-lfs vs. dolt vs. lakefs.
+\newblock 2024.
+\newblock Accessed on 2024-10-12.
+
+\bibitem{gitlfs-architecture}
+A.~Pasha.
+\newblock Understanding git large file storage (lfs): Efficiently managing large files in git repositories.
+\newblock 2023.
+\newblock Accessed on 2024-11-08.
+
+\bibitem{pawlik2019link}
+M.~Pawlik, T.~H{\"u}tter, D.~Kocher, W.~Mann, and N.~Augsten.
+\newblock A link is not enough--reproducibility of data.
+\newblock {\em Datenbank-Spektrum}, 19:107--115, 2019.
+
+\bibitem{peng2011reproducible}
+R.~D. Peng.
+\newblock Reproducible research in computational science.
+\newblock {\em Science}, 334(6060):1226--1227, 2011.
+
+\bibitem{perez2016ten}
+Y.~Perez-Riverol, L.~Gatto, R.~Wang, T.~Sachsenberg, J.~Uszkoreit, F.~d.~V. Leprevost, C.~Fufezan, T.~Ternent, S.~J. Eglen, D.~S. Katz, et~al.
+\newblock Ten simple rules for taking advantage of git and github, 2016.
+
+\bibitem{prolly-trees}
+T.~Sehn.
+\newblock Prolly trees.
+\newblock 2024.
+\newblock Accessed on 2024-11-08.
+
+\bibitem{zolkifli2018version}
+N.~N. Zolkifli, A.~Ngah, and A.~Deraman.
+\newblock Version control system: A review.
+\newblock {\em Procedia Computer Science}, 135:408--415, 2018.
 
 \end{thebibliography}

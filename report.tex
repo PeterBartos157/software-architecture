@@ -14,6 +14,8 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{listings}
+\usepackage{verbatim}
+\usepackage{float}
 \lstset{language=[AspectJ]Java,basicstyle=\fontsize{9}{10.8}\selectfont,showstringspaces=false,columns=fullflexible}
 
 \newcommand{\magnf}{.65}
@@ -25,7 +27,8 @@
 % balík listings niekedy niektoré kľúčové slová nezvýrazňuje ak to nedostane príkazom tesne pred textom
 \newcommand{\ajset}{\lstset{emph={class,aspect,new,call,execution,set,int,advice,public,thisJoinPointStaticPart,thisEnclosingJoinPointStaticPart,@annotation,dominates},emphstyle=\bfseries}}
 
-\newcommand{\reporttitle}{Data versioning in machine-learning architecture} % here goes your fancy title
+\newcommand{\reporttitle}{Data versioning in machine-learning architecture}
+% here goes your fancy title
 
 \pagestyle{myheadings}
 \markboth{\reporttitle}{Software Architecture 2024/25, FIIT STU}
@@ -36,7 +39,7 @@
 
 \date{Faculty of Informatics and Information Technologies\\
       Slovak University of Technology in Bratislava\\[6pt]
-      September 29, 2024} % modify the date if different
+      \today}
 
 
 
@@ -44,68 +47,39 @@
 
 \maketitle
 
-\begin{abstract}
-Data versioning plays a crucial role in modern machine learning architecture, 
-ensuring that the complex and ever-evolving datasets that provide the basis 
-for models can be tracked, compared, and managed efficiently. At its core, 
-data versioning refers to the practice of creating unique references for 
-different states of a dataset over time, allowing us to trace changes, 
-restore previous versions, and debug issues. This is vital in machine learning 
-workflows, where even small changes in data can significantly impact model performance.
-
-In this domain, data versioning supports reproducibility by maintaining a consistent 
-link between datasets and the models trained on them. Without version control, it 
-becomes challenging to recreate experiments, leading to inconsistencies in predictions 
-and hindering model audits. Versioning also simplifies collaboration across teams, 
-enabling multiple stakeholders to work on the same data without overwriting each 
-other's progress.
-
-Basic approaches to data versioning include full duplication of datasets, where 
-copies are saved with each change, and metadata-based versioning, where timestamps 
-indicate the validity of each record. Advanced solutions (like lakeFS and DVC) deal 
-with versioning as a core component of machine learning architecture. They enable 
-storage-efficient data commits, branching, and comparison, similar to how Git handles 
-version control in software development.
-
-Overall, data versioning enhances productivity, reduces errors, and fosters an 
-engineering-driven approach to handling data in machine learning pipelines, ultimately 
-enabling smoother transitions between development stages and more robust model deployment. 
-The objective of the project is to go over these systems and provide detailed overviews 
-of how data versioning has such a crucial role in machine learning architecture.
-\end{abstract}
-
+\input{abstract.tex}
 
 
 \section{Introduction} \label{in}
 
-\ldots
-
-The rest of this report\footnote{This report has been submitted in partial fulfillemnt of the Aspect-Oriented Software Development 2018/19 course completion conditions (\url{http://fiit.sk/~vranic/aosd/}). Supervised by Valentino Vranić.}
-is structured as follows.
-Section~\ref{insight} provides an insight into\ldots{}
-Section~\ref{approaches} explains in more detail some important approaches to\ldots{}
-Section~\ref{initial} brings the initial steps to\ldots{}
-(Characterize each section by a sentence.)
-Section~\ref{cc} concludes the paper and indicates some directions for further work.
-
+%\ldots
+\input{introduction.tex}
+\paragraph{Outlook}
+The rest of this report is structured as follows. Section~\ref{insight} provides
+an insight into\ldots{} Section~\ref{approaches} explains in more detail some
+important approaches to\ldots{} Section~\ref{initial} brings the initial steps
+to\ldots{} (Characterize each section by a sentence.) Section~\ref{cc}
+concludes the paper and indicates some directions for further work.
 
 
 
 \section{Insight into\ldots} \label{insight}
-
+\input{types.tex}
+\input{git.tex}
+\input{dolt.tex}
+\input{DVC.tex}
 Present your insight into the state of the art.
 Favor comparison and critique over description.
 Avoid lengthy descriptions with lots of quoted material.
 
-Refer to literature properly, e.g.,
-``Many authors have tried to\ldots~\cite{Vranic:AJParadigms,Alexander:Timeless}, but\ldots'' 
-
-Use your own title for this section.
+Use your own title for this section..
 
 You may structure your sections (see below).
 If you use subsections, use at least two, i.e., don't put only one subsection.
 
-It might be a good idea to explain the structure of the rest of the section. Sometimes, an explicit way of doing at just as is demonstrated at the end of the introduction (see Section~\ref{in}).
+It might be a good idea to explain the structure of the rest of the section.
+Sometimes, an explicit way of doing at just as is demonstrated at the end of the
+introduction (see Section~\ref{in}).
 
 
 \subsection{Some Aspects} \label{insight-some}
@@ -168,8 +142,8 @@ public aspect SMTPServerBackupA {
 }
 \end{lstlisting}
 
-If you need to display more code, use appendices referring the reader to them, e.g.,
-``see Appendix~\ref{some} for a more detailed example.''
+If you need to display more code, use appendices referring the reader to them,
+e.g., ``see Appendix~\ref{some} for a more detailed example.''
 
 
 
@@ -181,7 +155,8 @@ You may need several sections to describe your approach.
 
 \section{Evaluation} \label{eval}
 
-You may describe your evaluation efforts in a separate, often generically entitled section.
+You may describe your evaluation efforts in a separate, often generically
+entitled section.
 
 \subsection{Essential Evaluation} \label{eval-essential}
 

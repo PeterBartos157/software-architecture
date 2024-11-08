@@ -1,0 +1,23 @@
+\paragraph{Dolt}
+Dolt is a version-controlled SQL database and as such it may serve as an example
+of a centralised DVS. Analogous to Git, one can track schemas and changes in the
+database, create and merge branches \cite{dolt-reproducibility}. Under the hood,
+Dolt uses Prolly trees - a data structure related to both B-trees
+\cite{prolly-trees}, commonly used in RDBMS and Merkle trees (used by
+distributed version control systems such as Git or Mercurial)\cite{comparison}.
+This data structure provides both fast performance (including diffs and merges)
+and efficient storage management (each portion of data shared between trees is
+shared only once). However, like other RDBMS, while Dolt may be the ideal
+solution for structured data, it is not suitable for unstructed data.
+\begin{comment}
+    version controlled SQL DB; suitable for data stored in RDBMS (such as MySQL,
+although there appears to be a postgres version as well) usage of prolly trees
+(merge of B-tree (indices of RDBMS, performance of databases) and Merkle tree
+(structure used in git)) = data is saved in accordance to hash (easier
+identification whether file changed, better diff / merge);not suitable for
+unstructured data, nor high performance; centralised; tracking of schemas and
+changes in the database ;(source: github read me file);
+https://docs.dolthub.com/introduction/use-cases = overview of usecases not great
+for unstructured binary files; can effectively serve to replace databases;
+support merging, branching and other typical git stuff;
+\end{comment}
