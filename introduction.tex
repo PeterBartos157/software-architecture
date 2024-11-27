@@ -1,40 +1,20 @@
-According to ACM \cite{ACMreproducibility}, reproducibility is the ability to
-obtain measurement with stated precision by different team under the same
-condition as the initial team. For present-day advances in AI, reproducibility
-is key. Peng \cite{peng2011reproducible} regards reproducibility the ultimate
-arbiter of scientific claims. A high level of reproducibility enables more
-transparent acquirement of evidence either for or against certain hypotheses.
-However, analysis of 602 papers by Pawlik et al.\cite{pawlik2019link} claims
-that only 7.64\% of them were reproducible. More advanced data version control
-can also lead to better and more complex ablation studies, which greatly
-increases our understanding of NN. Pawlik et al. \cite{pawlik2019link} argue,
-that for higher reproducibility dataset should not only contain input data, but
-also raw data and preparation instructions that convert raw data to input data.
-Raw data serves to put data into context. We can also generate new input data
-using discarded data together with the preparation instructions and augmentation
-techniques.
+
+Reproducibility, as defined by ACM \cite{ACMreproducibility}, 
+is the ability to obtain precise measurements by different 
+teams under the same conditions. In AI advancements, reproducibility 
+is crucial, with Peng \cite{peng2011reproducible} considering it 
+the ultimate measure of scientific validity. However, Pawlik et 
+al. \cite{pawlik2019link} found that only 7.64\% of analyzed papers 
+were reproducible. Improved data version control can enhance 
+reproducibility and enable more complex studies, increasing understanding 
+of neural networks. Pawlik et al. \cite{pawlik2019link} suggest that 
+datasets should include not only input data but also raw data and 
+preparation instructions to improve context and reproducibility. 
 \\\\
-To understand how data versioning integrates into machine learning architecture, 
-it is essential to examine the components and workflows that define this 
-architecture. Machine learning pipelines rely on iterative experimentation, 
-where data serves as the foundation for every stage, from preprocessing to model 
-training, evaluation, and deployment. At each step, maintaining a consistent and 
-traceable version of datasets and modoels is critical for achieving 
-reproducibility. \cite{wandb}
-
-
-\begin{comment}
-As stated by Komsiyski \cite{komsiyski2013binary}, storing multiple
-versions of binary files can be expensive.
-
-criteria according to perez et al.
-More recently, a trend has started to mint DOIs for other types of scientific
-products such as datasets [12] and training materials (for example [13]). A key
-motivation for this is to build a framework for giving scientists broader credit
-for their work [14,15] while simultaneously supporting clearer, more persistent
-ways to cite and track it. Helping to drive this change are funding agencies
-such as the National Institutes of Health (NIH) and National Science Foundation
-(NSF) in the United States and Research Councils in the United Kingdom, which
-are increasingly recognizing the importance of research products such as
-publicly available datasets and software. \cite{perez2016ten}
-\end{comment}
+To understand how data versioning integrates into machine learning 
+architecture, it's essential to examine key components and workflows. 
+Machine learning pipelines rely on iterative experimentation, where 
+data is critical at every stage, from preprocessing to model training, 
+evaluation, and deployment. Maintaining consistent, traceable versions 
+of datasets and models is vital for ensuring reproducibility. 
+\cite{wandb}

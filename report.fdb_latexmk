@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex report"] 1732711108 "report.aux" "report.bbl" "report" 1732711110 0
+["bibtex report"] 1732715414 "report.aux" "report.bbl" "report" 1732715431 0
   "./bib.bib" 1732710183 7739 98bee5eb2e1779b614b9145f58c595a1 ""
   "C:/Users/peter/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/abbrv.bst" 1291864736 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "report.aux" 1732711109 5874 a2ef7fc4223e58f79132a70b50ece4a9 "pdflatex"
+  "report.aux" 1732715430 5874 f634c9b993d392ffcb2e01e900b80fbb "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1732711108 "c:/Users/peter/OneDrive/Documents/Zadania/#STU/#7_Architektúra softvéru/report/software-architecture/report.tex" "report.pdf" "report" 1732711110 0
+["pdflatex"] 1732715429 "c:/Users/peter/OneDrive/Documents/Zadania/#STU/#7_Architektúra softvéru/report/software-architecture/report.tex" "report.pdf" "report" 1732715431 0
   "C:/Users/peter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1727440924 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/peter/AppData/Local/MiKTeX/fonts/pk/ljfour/public/csfonts/dpi600/csbx10.pk" 1727440942 17552 5f2a7b83a03c1b4f396c48297b1ee541 ""
   "C:/Users/peter/AppData/Local/MiKTeX/fonts/pk/ljfour/public/csfonts/dpi600/csbx12.pk" 1727440932 21956 2ba115c080b0dc99b390b504f505fbd9 ""
@@ -99,7 +99,7 @@
   "DVC.tex" 1732541922 1350 8fd905d4c06ed30a41b4947c3df98024 ""
   "abstract.tex" 1732541922 1936 aa5cfd9439fdb1012ad072d7f3d4514f ""
   "c:/Users/peter/OneDrive/Documents/Zadania/#STU/#7_Architektúra softvéru/report/software-architecture/report.tex" 1732710594 2187 ef70a89a4378cdba277290b7d43a6cc9 ""
-  "conclusion.tex" 1732711104 2470 3e4937fa4be3b8c05591b2aa3ef7ac95 ""
+  "conclusion.tex" 1732714928 1427 4608582dfdd2437b4aeb513fdc693db4 ""
   "dolt.tex" 1732541922 1560 a692b67aa51c910d2ace50d54288ad13 ""
   "fig/dv-advantages.png" 1732709753 65250 95fe5fc77741afa77958d16d9ca68195 ""
   "fig/dvc-arch.png" 1732541922 239914 7db73fb384bc401b7c1705781e1533fe ""
@@ -107,11 +107,11 @@
   "fig/ml-artifacts.png" 1732707598 20294 fdc8f13c69ec98d43fc1c9577746c380 ""
   "fig/ml-dv-example.png" 1732708973 61749 7fcc8207c7c5b9a52c7a9ede93a09e52 ""
   "git.tex" 1732541922 4124 92b35b8933a882f1ef96ad41aff75c92 ""
-  "introduction.tex" 1732707273 2507 05a857952abc3a55394c4c85be2d1e67 ""
-  "ml-architecture.tex" 1732710286 6610 9d62b4c465ca672fed4c73ae56ac3a27 ""
-  "report.aux" 1732711109 5874 a2ef7fc4223e58f79132a70b50ece4a9 "pdflatex"
-  "report.bbl" 1732711108 3295 33b72d794ffb710e650fee6a675d6e70 "bibtex report"
-  "report.out" 1732711109 1338 c61c6ad5935efe469220612e2eaf4ace "pdflatex"
+  "introduction.tex" 1732715429 1185 ccf487ba1fd7a95ce39774ef668b6e44 ""
+  "ml-architecture.tex" 1732714641 4855 b66073808e3d374fcc0babf60850baad ""
+  "report.aux" 1732715430 5874 f634c9b993d392ffcb2e01e900b80fbb "pdflatex"
+  "report.bbl" 1732715414 3295 33b72d794ffb710e650fee6a675d6e70 "bibtex report"
+  "report.out" 1732715430 1338 c61c6ad5935efe469220612e2eaf4ace "pdflatex"
   "report.tex" 1732710594 2187 ef70a89a4378cdba277290b7d43a6cc9 ""
   "types.tex" 1732541922 776 e380ed023c6e609637b560ba43701d89 ""
   (generated)
