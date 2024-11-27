@@ -1,7 +1,23 @@
 \begin{thebibliography}{10}
 
+\bibitem{yizhenzhao}
+Mlops: Data versioning with dvc — part i.
+\newblock 2021.
+
+\bibitem{opendatascience}
+How data versioning can be used in machine learning.
+\newblock 2022.
+
 \bibitem{DVC}
 Dvc documentation.
+\newblock 2024.
+
+\bibitem{aimultiple}
+In-depth guide to data versioning: Benefits and formats.
+\newblock 2024.
+
+\bibitem{wandb}
+Intro to mlops: Data and model versioning.
 \newblock 2024.
 
 \bibitem{ACMreproducibility}
@@ -61,13 +77,15 @@ V.~Komsiyski.
 
 \bibitem{comparison}
 E.~Orr.
-\newblock Data versioning as your 'get out of jail' card - dvc vs. git-lfs vs. dolt vs. lakefs.
+\newblock Data versioning as your 'get out of jail' card - dvc vs. git-lfs vs.
+  dolt vs. lakefs.
 \newblock 2024.
 \newblock Accessed on 2024-10-12.
 
 \bibitem{gitlfs-architecture}
 A.~Pasha.
-\newblock Understanding git large file storage (lfs): Efficiently managing large files in git repositories.
+\newblock Understanding git large file storage (lfs): Efficiently managing
+  large files in git repositories.
 \newblock 2023.
 \newblock Accessed on 2024-11-08.
 
@@ -82,8 +100,14 @@ R.~D. Peng.
 \newblock {\em Science}, 334(6060):1226--1227, 2011.
 
 \bibitem{perez2016ten}
-Y.~Perez-Riverol, L.~Gatto, R.~Wang, T.~Sachsenberg, J.~Uszkoreit, F.~d.~V. Leprevost, C.~Fufezan, T.~Ternent, S.~J. Eglen, D.~S. Katz, et~al.
+Y.~Perez-Riverol, L.~Gatto, R.~Wang, T.~Sachsenberg, J.~Uszkoreit, F.~d.~V.
+  Leprevost, C.~Fufezan, T.~Ternent, S.~J. Eglen, D.~S. Katz, et~al.
 \newblock Ten simple rules for taking advantage of git and github, 2016.
+
+\bibitem{pulicharla2024data}
+M.~R. Pulicharla.
+\newblock Data versioning and its impact on machine learning models.
+\newblock {\em Journal of Science \& Technology}, 5(1):22--37, 2024.
 
 \bibitem{prolly-trees}
 T.~Sehn.
